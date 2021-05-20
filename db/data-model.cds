@@ -12,3 +12,7 @@ entity Trainings : cuid,managed {
     trainer : String;
     Participants:String;
 }
+entity TrainingsFSI : cuid,managed {
+    trainer : String;
+    Participants:String;
+}
