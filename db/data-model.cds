@@ -1,5 +1,4 @@
 namespace my.bookshop;
-using { cuid,managed } from '@sap/cds/common';
 
 
 entity Books {
@@ -8,11 +7,7 @@ entity Books {
   stock  : Integer;
 }
 
-entity Trainings : cuid,managed {
-    trainer : String;
-    Participants:String;
-}
-entity TrainingsFSI : cuid,managed {
+entity Trainings {
     trainer : String;
     Participants:String;
 }
